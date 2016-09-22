@@ -1,0 +1,222 @@
+.header {
+	
+	background-color: #fff;
+	height: 143px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+
+	@media (min-width: 480px) {
+		
+	}
+
+	ul {
+		
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		overflow: hidden;
+		background-color: #fff;
+	}
+
+	li {
+
+		text-align: center;
+
+		a {
+		
+			border-bottom: 1px solid #fff;
+			color: #000;
+			display: inline-block;
+			font-size: 40px;
+			padding: 25px 0;
+			text-align: center;
+			text-decoration: none;
+			width: 150px;
+
+			&:hover {
+				//background-color: #f4f4f4;
+			}
+		}
+
+		&:last-child a {
+
+			border-bottom: none;
+		}
+
+	}
+
+	.logo {
+
+		display: block;
+		float: left;
+		padding: 0;
+		text-decoration: none;
+		width: 50%;
+
+		@media (min-width: 640px) { 
+			width: auto;
+		}
+
+		img {
+
+			height: auto;
+			width: 212px;
+			margin: 20px;
+
+			@media (min-width: 640px) { 
+				
+				margin: 40px;
+			}	
+
+		}
+
+	}
+
+	.menu {
+		//background: #000;
+		clear: both;
+		max-height: 0;
+		transition: max-height .2s ease-out;
+	}
+
+	.menu-icon {
+	  cursor: pointer;
+	  display: inline-block;
+	  float: right;
+	  padding: 40px;
+	  position: relative;
+	  user-select: none;
+
+		@media (min-width: 640px) { 
+			
+			padding: 60px 40px;
+		}	
+
+	}
+	 
+	.menu-icon .navicon {
+	  background: #333;
+	  display: block;
+	  height: 5px;
+	  position: relative;
+	  transition: background .2s ease-out;
+	  width: 35px;
+	}
+	 
+	.menu-icon .navicon:before,
+	.menu-icon .navicon:after {
+	  background: #333;
+	  content: '';
+	  display: block;
+	  height: 100%;
+	  position: absolute;
+	  transition: all .2s ease-out;
+	  width: 100%;
+	}
+	 
+	.menu-icon .navicon:before {
+	  top: 10px;
+	}
+	 
+	.menu-icon .navicon:after {
+	  top: -10px;
+	}
+
+	.menu-btn {
+	  display: none;
+	}
+	 
+	.menu-btn:checked ~ .menu {
+	  max-height: 1000px;
+	  padding: 0;
+
+	  @media (min-width: 640px) {
+
+	  	padding: 40px 0;
+	  }
+
+	}
+	 
+	.menu-btn:checked ~ .menu-icon .navicon {
+	  background: transparent;
+	}
+	 
+	.menu-btn:checked ~ .menu-icon .navicon:before {
+		transform: rotate(-45deg);
+	}
+	 
+	.menu-btn:checked ~ .menu-icon .navicon:after {
+		transform: rotate(45deg);
+	}
+	 
+	.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+	.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+		top: 0;
+	}
+
+	@media (min-width: 768px) {
+
+		.menu {
+
+			//display: none;
+			
+		}
+		
+		li {
+			
+			display: inline-block;
+			
+
+			a {
+
+				border-right: 3px solid #000;
+				font-size: 25px;
+				padding: 0 15px;
+				width: auto;
+
+				&:hover {
+					background-color: #fff;
+				}
+
+			}
+
+			&:last-child a {
+				
+				border: none;
+			}
+		}
+		
+		.menu {
+			
+			clear: none;
+			float: right;
+			margin: 50px 40px;
+			max-height: none;
+		}
+		
+		.menu-icon {
+			
+			display: none;
+		}
+	}
+
+	@media (min-width: 1024px) {
+
+		li a {
+
+			padding: 0 30px;
+		}
+	}
+
+	@media (min-width: 1280px) {
+
+		.logo img {
+
+			margin: 45px 0 0 50px;
+		}
+
+	}
+
+}

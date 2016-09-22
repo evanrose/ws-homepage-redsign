@@ -1,0 +1,72 @@
+.hero {
+
+	//display: none;
+
+	padding-top: 20px;
+
+	h1 {
+		
+		font-size: 80px;
+		margin-top: -25px;
+	}
+
+	p {
+		
+		font-size: 20px;
+		line-height: 2; // might not be default
+		margin: 0;
+	}
+
+	.background {
+		
+		background: url("../images/dots.png");
+		height: 235px;
+		padding: 10px;
+
+		@media (min-width: 640px) {
+			
+			height: 435px;
+		}
+
+	}
+
+
+	@media (min-width: 640px) {
+
+		padding-top: 115px;	
+
+		h1 {
+
+			font-size: 160px;
+			margin-top: -50px;	
+		}
+
+		p {
+
+			margin: -20px 20px 0 0;
+		}
+
+	}
+
+
+	@media (min-width: 1024px) {
+
+		h1, p {
+
+			width: 70%;
+		}
+
+
+	}
+
+	@media (min-width: 1024px) {
+
+		h1, p {
+
+			width: 70%;
+		}
+
+
+	}
+
+}

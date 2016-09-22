@@ -1,0 +1,162 @@
+@import "normalize";
+@import "colors";
+@import "defaults";
+@import "fonts";
+@import "header";
+@import "hero";
+@import "case-study";
+@import "ws-section";
+@import "sections";
+@import "footer";
+
+html, body {
+
+	color: #333;
+	min-height: 100%;
+}
+
+main {
+	
+	margin-top: 143px;
+
+	@media (min-width: 1280px) {
+
+		margin-left: auto;
+		margin-right: auto;
+		width: 1280px;
+	}	
+
+	& > div {
+		
+		padding: 0 20px 40px 20px;
+		position: relative;
+
+		@media (min-width: 640px) {
+
+			padding: 0 40px 60px 40px;
+		}
+
+		@media (min-width: 1280px) {
+
+			padding: 0 50px 50px 50px;
+		}	
+	}
+}
+
+h1 h2, h3 {
+
+	line-height: .8;
+}
+
+h2, h3, h4 {
+	
+	margin: 0 0 $mrgn-btm-dflt 0;
+}
+
+.left {
+	
+	float: left;
+}
+
+.right {
+	
+	float: right;
+}
+
+img {
+	
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+p {
+
+	font-size: 18px;
+
+	@media (min-width: 640px) {
+
+		font-size: 20px;
+	}
+
+	line-height: 1.75;
+
+	@media (min-width: 1280px) {
+
+		font-size: 14px;
+	}
+
+	&.caption {
+
+		font-weight: bold;
+		padding: 0;
+	}
+}
+
+p, table {
+	
+	margin-bottom: 20px;
+
+	@media (min-width: 640px) {
+		
+		margin-bottom: 40px;
+	}
+}
+
+//is_mobile
+
+.tablet {
+
+	display: none;
+}
+
+.desktop {
+
+	display: none;
+}
+
+@media (min-width: 768px) {
+
+	//is_tablet
+	.mobile {
+		
+		display: none;
+	}
+
+	.tablet {
+
+		display: block;
+	}
+
+	.desktop {
+
+		display: none;
+	}
+
+}
+
+@media (min-width: 1024px) {
+
+	//is desktop
+
+	.mobile {
+
+		display: none;
+	}
+
+	.tablet {
+
+		display: none;
+	}
+
+	.desktop {
+
+		display: block;
+	}
+}
+
+@media (min-width: 1280px) {
+
+
+
+}

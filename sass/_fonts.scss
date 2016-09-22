@@ -1,0 +1,32 @@
+@font-face {
+    
+    font-family: "Monte_Reg";
+    src: url( '../fonts/montefiore-regular-condensed.otf') format("opentype");
+}
+
+@font-face {
+    
+    font-family: "Monte_Bold";
+    src: url( '../fonts/montefiore-bold-condensed.otf') format("opentype");
+}
+
+@font-face {
+    
+    font-family: "Norwester";
+    src: url( '../fonts/norwester.otf') format("opentype");
+}
+
+body {
+	
+	font-family: "Arial", sans-serif;
+}
+
+h1, h2, h3, .links a, header li, .grid-number {
+	
+    color: #000;
+	font-family: "Monte_Reg", sans-serif;
+    font-weight: normal;
+	text-transform: uppercase;
+}
+
+

@@ -1,0 +1,334 @@
+.work-at-weber {
+
+	background-color: #35a9ce;
+}
+
+.media-decoded {
+
+	background-color: #794ba9;
+}
+
+.who-we-are {
+
+	background-color: #ed742d;
+}
+
+.barbie {
+
+	//Note max width
+	@media (max-width: 768px) {
+
+		.person-container {
+
+			img, p {
+
+				width: 100%;
+			}
+		}
+	}
+
+	@media (min-width: 768px) {
+
+		padding-bottom: 575px;
+	}
+
+	@media (min-width: 1024px) {
+
+		padding-bottom: auto;
+	}
+
+	@media (min-width: 1280px) {
+
+		padding-bottom: 250px;
+		
+		.position-right {
+
+			width: 650px;
+		}
+
+		.info-grid-mobile {
+
+			margin-left: 35px;
+			width: 375px;
+		}
+
+		.quote {
+
+			margin-left: 75px;
+			width: 100%;
+
+			img {
+
+				display: inline;
+				width: 100%;
+			}
+		}
+
+		.person-container {
+
+			margin-left: 75px;
+			width: 100%;
+
+			img {
+
+				width: 100%;
+			}
+		}
+	}
+}
+
+.hemnet {
+
+	padding-bottom: 250px;		
+
+	@media (min-width: 1024px) {
+
+		padding-bottom: 500px;		
+	}
+
+	@media (min-width: 1280px) {
+
+		padding-bottom: 250px;	
+
+		.info-grid-mobile {
+
+			width: 300px;
+		}
+
+		.person-container {
+
+			margin-left: -40px;
+			width: 680px;
+		}
+
+		.position-right {
+
+			.cs-image {
+			
+				margin: 0 0 40px;
+			}
+
+			.cs-text {
+			
+				margin: 0;
+			}
+
+		}
+	}
+}
+
+.daughters {
+
+	//display: none;
+
+	.apply-container {
+
+		p {
+
+			margin-bottom: 20px;
+			width: auto;
+			line-height: 1.5;
+		}
+
+	}
+
+	.person-container {
+
+		img {
+
+			//width: 100%;
+		}
+	}
+
+	@media (min-width: 768px) {
+
+		.img-container {
+
+			float: left;
+			width: 55%;
+
+			.cs-image {
+				
+				margin: 0;
+			}
+
+			.dotted-container {
+				
+				text-align: center;
+				position: absolute;
+
+				.cs-dotted {
+
+					display: inline;
+					position: static;
+				}
+
+			}
+
+			.person-image-container {
+				
+				margin-top: 150px;
+				text-align: right;
+
+				img {
+
+					display: inline;
+				}
+
+				p {
+
+					width: 60%;
+				}
+			}
+
+			.apply-container {
+
+				width: auto;
+			}
+		}
+
+		.content-container {
+			
+			float: right;
+			width: 40%;
+
+			.info-grid-desktop {
+
+				width: auto;
+
+				div {
+
+					padding: 20px;
+				}
+			}
+		}
+	}
+
+	@media (min-width: 1024px) {
+
+		.img-container {
+
+			.person-container.tablet {
+
+				display: block;
+				width: 100%;
+			}
+
+			.dotted-container {
+				
+				position: relative;
+				text-align: center;
+
+				.cs-dotted {
+					
+					margin-bottom: 0;
+				}
+			}
+
+			.person-image-container {
+				
+				margin-top: 0;
+				text-align: center;
+
+				p {
+
+					text-align: left;
+				}
+			}
+		}
+
+	}
+
+	@media (min-width: 1280px) {
+
+		.case-study-header {
+			
+			margin-left: 0;
+			position: relative;
+			z-index: 1;
+		}
+
+		h3 {
+
+			margin-left: 0;
+		}
+
+		.desktop-right {
+
+			width: 330px;
+			float: right;
+		}
+
+		.content-container {
+
+			margin: 40px 100px 0 0;
+			width: 380px;
+
+			h4 {
+
+
+			}
+
+			.cs-text {
+
+			}
+
+			.info-grid-mobile {
+
+				margin-left: 0;
+			}
+		}
+
+		.img-container {
+
+			.cs-image {
+
+				margin-left: 75px;
+				width: 725px;
+				margin-bottom: 25px;
+				z-index: 0;
+			}
+
+			.apply-container {
+			
+				position: absolute;
+				left: 0;
+				margin: 0;
+				top: 100px;
+				width: 240px;
+				z-index: 3;
+			}
+
+			.person-image-container {
+
+				margin: 0;
+				padding-left: 200px;
+				text-align: left;
+				width: 500px;
+
+			}
+
+			.cannes {
+
+				img {
+
+					width: auto;
+				}
+			}
+
+		}
+
+		.person-container.tablet {
+
+			display: block;
+			width: 725px;
+
+			.dotted-container {
+
+				position: relative;
+				text-align: right;
+				
+			}
+		}
+	}
+}
