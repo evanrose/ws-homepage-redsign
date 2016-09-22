@@ -1,0 +1,26 @@
+header {
+
+	position: absolute;
+	width: 100%;
+}
+
+header, main {
+
+	@media (min-width: 1280px) {
+
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 1280px;
+	}	
+}
+
+main {
+	
+	margin-top: 143px;
+
+	@media (min-width: 1280px) {
+
+		margin-top: 0;
+	}
+}

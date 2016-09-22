@@ -3,6 +3,7 @@
 @import "defaults";
 @import "fonts";
 @import "header";
+@import "header-main-center";
 @import "hero";
 @import "case-study";
 @import "ws-section";
@@ -15,16 +16,18 @@ html, body {
 	min-height: 100%;
 }
 
-main {
-	
-	margin-top: 143px;
+header, main {
 
 	@media (min-width: 1280px) {
 
 		margin-left: auto;
 		margin-right: auto;
+		position: relative;
 		width: 1280px;
 	}	
+}
+
+main {	
 
 	& > div {
 		

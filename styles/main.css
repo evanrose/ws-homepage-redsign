@@ -83,9 +83,7 @@ h1, h2, h3, .links a, header li, .grid-number {
 .header {
   background-color: #fff;
   height: 143px;
-  position: absolute;
   top: 0;
-  width: 100%;
   z-index: 3; }
   .header ul {
     margin: 0;
@@ -198,6 +196,23 @@ h1, h2, h3, .links a, header li, .grid-number {
   @media (min-width: 1280px) {
     .header .logo img {
       margin: 45px 0 0 50px; } }
+
+header {
+  position: absolute;
+  width: 100%; }
+
+@media (min-width: 1280px) {
+  header, main {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 1280px; } }
+
+main {
+  margin-top: 143px; }
+  @media (min-width: 1280px) {
+    main {
+      margin-top: 0; } }
 
 .hero {
   padding-top: 20px; }
@@ -829,22 +844,22 @@ html, body {
   color: #333;
   min-height: 100%; }
 
-main {
-  margin-top: 143px; }
+@media (min-width: 1280px) {
+  header, main {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 1280px; } }
+
+main > div {
+  padding: 0 20px 40px 20px;
+  position: relative; }
+  @media (min-width: 640px) {
+    main > div {
+      padding: 0 40px 60px 40px; } }
   @media (min-width: 1280px) {
-    main {
-      margin-left: auto;
-      margin-right: auto;
-      width: 1280px; } }
-  main > div {
-    padding: 0 20px 40px 20px;
-    position: relative; }
-    @media (min-width: 640px) {
-      main > div {
-        padding: 0 40px 60px 40px; } }
-    @media (min-width: 1280px) {
-      main > div {
-        padding: 0 50px 50px 50px; } }
+    main > div {
+      padding: 0 50px 50px 50px; } }
 
 h1 h2, h3 {
   line-height: .8; }
