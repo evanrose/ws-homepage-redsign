@@ -80,20 +80,20 @@ h1, h2, h3, .links a, header li, .grid-number {
   font-weight: normal;
   text-transform: uppercase; }
 
-.header {
+header {
   background-color: #fff;
   height: 143px;
   top: 0;
   z-index: 3; }
-  .header ul {
+  header ul {
     margin: 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
     background-color: #fff; }
-  .header li {
+  header li {
     text-align: center; }
-    .header li a {
+    header li a {
       border-bottom: 1px solid #fff;
       color: #000;
       display: inline-block;
@@ -102,29 +102,29 @@ h1, h2, h3, .links a, header li, .grid-number {
       text-align: center;
       text-decoration: none;
       width: 150px; }
-    .header li:last-child a {
+    header li:last-child a {
       border-bottom: none; }
-  .header .logo {
+  header .logo {
     display: block;
     float: left;
     padding: 0;
     text-decoration: none;
     width: 50%; }
     @media (min-width: 640px) {
-      .header .logo {
+      header .logo {
         width: auto; } }
-    .header .logo img {
+    header .logo img {
       height: auto;
       width: 212px;
       margin: 20px; }
       @media (min-width: 640px) {
-        .header .logo img {
+        header .logo img {
           margin: 40px; } }
-  .header .menu {
+  header .menu {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out; }
-  .header .menu-icon {
+  header .menu-icon {
     cursor: pointer;
     display: inline-block;
     float: right;
@@ -132,17 +132,17 @@ h1, h2, h3, .links a, header li, .grid-number {
     position: relative;
     user-select: none; }
     @media (min-width: 640px) {
-      .header .menu-icon {
+      header .menu-icon {
         padding: 60px 40px; } }
-  .header .menu-icon .navicon {
+  header .menu-icon .navicon {
     background: #333;
     display: block;
     height: 5px;
     position: relative;
     transition: background .2s ease-out;
     width: 35px; }
-  .header .menu-icon .navicon:before,
-  .header .menu-icon .navicon:after {
+  header .menu-icon .navicon:before,
+  header .menu-icon .navicon:after {
     background: #333;
     content: '';
     display: block;
@@ -150,51 +150,51 @@ h1, h2, h3, .links a, header li, .grid-number {
     position: absolute;
     transition: all .2s ease-out;
     width: 100%; }
-  .header .menu-icon .navicon:before {
+  header .menu-icon .navicon:before {
     top: 10px; }
-  .header .menu-icon .navicon:after {
+  header .menu-icon .navicon:after {
     top: -10px; }
-  .header .menu-btn {
+  header .menu-btn {
     display: none; }
-  .header .menu-btn:checked ~ .menu {
+  header .menu-btn:checked ~ .menu {
     max-height: 1000px;
     padding: 0; }
     @media (min-width: 640px) {
-      .header .menu-btn:checked ~ .menu {
+      header .menu-btn:checked ~ .menu {
         padding: 40px 0; } }
-  .header .menu-btn:checked ~ .menu-icon .navicon {
+  header .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent; }
-  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+  header .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg); }
-  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+  header .menu-btn:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg); }
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0; }
   @media (min-width: 768px) {
-    .header li {
+    header li {
       display: inline-block; }
-      .header li a {
+      header li a {
         border-right: 3px solid #000;
         font-size: 25px;
         padding: 0 15px;
         width: auto; }
-        .header li a:hover {
+        header li a:hover {
           background-color: #fff; }
-      .header li:last-child a {
+      header li:last-child a {
         border: none; }
-    .header .menu {
+    header .menu {
       clear: none;
       float: right;
       margin: 50px 40px;
       max-height: none; }
-    .header .menu-icon {
+    header .menu-icon {
       display: none; } }
   @media (min-width: 1024px) {
-    .header li a {
+    header li a {
       padding: 0 30px; } }
   @media (min-width: 1280px) {
-    .header .logo img {
+    header .logo img {
       margin: 45px 0 0 50px; } }
 
 header {
@@ -565,6 +565,42 @@ main {
           float: right;
           width: 300px; } }
 
+@media (min-width: 1280px) {
+  .ws-section-2 h2 {
+    margin-top: 0; }
+  .ws-section-2 a.btn-link {
+    margin-left: 0; }
+  .ws-section-2 .tablet-right {
+    float: left;
+    margin-left: 100px;
+    position: relative;
+    width: 430px;
+    right: 0; }
+    .ws-section-2 .tablet-right > p {
+      float: none;
+      margin-right: 100px;
+      width: auto; }
+  .ws-section-2 .ws-sec-content {
+    float: none;
+    margin: 0 0 40px 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    width: auto; }
+    .ws-section-2 .ws-sec-content .headshot {
+      float: none; }
+      .ws-section-2 .ws-sec-content .headshot img {
+        float: right;
+        margin: 0; }
+      .ws-section-2 .ws-sec-content .headshot .title-container p {
+        margin-top: 0; }
+  .ws-section-2 .ws-sec-container {
+    float: left;
+    margin: 100px 0 0 40px;
+    width: 530px; }
+    .ws-section-2 .ws-sec-container img {
+      width: auto; } }
+
 .work-at-weber {
   background-color: #35a9ce; }
 
@@ -844,13 +880,6 @@ html, body {
   color: #333;
   min-height: 100%; }
 
-@media (min-width: 1280px) {
-  header, main {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: 1280px; } }
-
 main > div {
   padding: 0 20px 40px 20px;
   position: relative; }
@@ -866,6 +895,12 @@ h1 h2, h3 {
 
 h2, h3, h4 {
   margin: 0 0 40px 0; }
+
+.copy-link {
+  text-decoration: underline; }
+
+.center {
+  text-align: center; }
 
 .left {
   float: left; }

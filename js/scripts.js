@@ -14,6 +14,7 @@ function checkSize() {
         $(".hemnet .person-container").detach().appendTo(".hemnet .cs-text");
         $(".daughters .cs-image").detach().prependTo(".daughters .img-container");
         $(".barbie .person-container").detach().appendTo(".barbie .position-right");
+    
     }
 
     if ( $(".desktop").css("display") == "block" ) {
@@ -28,7 +29,8 @@ function checkSize() {
         $(".hemnet .person-container").detach().appendTo(".hemnet .position-right");
         $(".barbie .person-container").detach().appendTo(".barbie .position-right");
 
-
+        $(".who-we-are .ws-sec-content").detach().insertBefore(".who-we-are h2");
+        $(".who-we-are .ws-sec-container").detach().insertAfter(".who-we-are .tablet-right");
+    
     }
-
 }

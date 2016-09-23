@@ -9,14 +9,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
-<header class="header">
+<header>
 	<a href="/" class="logo"><img src="images/logo.png" alt=""></a>
 	<input class="menu-btn" type="checkbox" id="menu-btn">
 	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 	<ul class="menu">
-		<li><span><a href="/what-we-do">Work</a></span></li>
-		<li><span><a href="/work-with-us">Careers</a></span></li>
-		<li><span><a href="/who-we-are">Culture</a></span></li>
+		<li><span><a href="#work">Work</a></span></li>
+		<li><span><a href="#careers">Careers</a></span></li>
+		<li><span><a href="#culture">Culture</a></span></li>
 		<li><span><a href="/news">Newsroom</a></span></li>
 	</ul>
 </header>
@@ -37,7 +37,7 @@
 		<span class="case-study-header">Case Study</span>
 		<h3 class="">HEMNET: THE HOUSE OF CLICKS</h3>
 		<div class="position-right">
-			<img class="cs-image" src="images/Hemnet.jpg" alt="">
+			<a href="https://youtu.be/iOOFqFIwGKI"><img class="cs-image" src="images/Hemnet.jpg" alt=""></a>
 			<div class="cs-text">
 				<p>We set out to show that Hemnet is not only a pioneer of property portals &mdash; but also the future of property development. And we did so by turning ones and zeros into bricks and mortar. Our team of data scientists analyzed more than 200 million clicks, unearthing the foundation of what Swedes dream about in a future home.</p>
 				<p>Based on the data, Hemnet built an actual House of Clicks &mdash; a gorgeous 1.5 story home featuring a red wooden facade and a private rooftop terrace.</p>
@@ -109,7 +109,7 @@
 
 <!-- 2 work weber -->
 
-	<div class="ws-section work-at-weber">
+	<div id="careers" class="ws-section work-at-weber">
 		<div class="tablet-right">
 			<h2>WORK AT WEBER SHANDWICK</h2>
 			<div class="hr"></div>
@@ -137,7 +137,7 @@
 			<span class="case-study-header">Case Study</span>
 			<h3 class="">DAUGHTERS OF MOTHER INDIA</h3>
 
-			<img class="cs-image" src="images/DOI_VideoStill.jpg" alt="">
+			<a href="https://youtu.be/iOOFqFIwGKI."><img class="cs-image" src="images/DOI_VideoStill.jpg" alt=""></a>
 
 			<div class="daughter desktop-right">
 
@@ -157,7 +157,7 @@
 					</div>
 					<div class="two">
 						<span class="grid-number"><span class="tablet mobile">150K</span><span class="desktop">150,000</span></span>
-							Mentions on Social Media
+							OFFICERS TRAINED
 					</div>
 					<div class="three">
 						<span class="grid-number">10</span>
@@ -173,7 +173,7 @@
 						</td>
 						<td>
 							<span class="grid-number"><span class="mobile">150K</span><span class="desktop">150,000</span></span>
-							Mentions on Social Media
+							OFFICERS TRAINED
 						</td>
 					</tr>
 					<tr>
@@ -211,7 +211,7 @@
 			<div class="person-container tablet">
 
 				<div class="apply-container">
-					<span class="city-country">Washington, <span class="country">DC</span></span>
+					<span class="city-country">Washington, DC</span>
 					<span class="title">Director, Social Impact Communications</span>
 					<p>Seeking a director to join our global Social Impact team, which works at the intersection of corporate social responsibility, sustainability and social issues.</p>
 					<a class="link" href="https://ipg.taleo.net/careersection/ws_ext_cs/jobdetail.ftl?job=004417">Apply Now</a>
@@ -236,13 +236,13 @@
 
 <!-- 4 media -->
 
-	<div class="ws-section media-decoded">
+	<div id="work" class="ws-section media-decoded">
 		<div class="tablet-right">
 			<h2>MEDIA DECODED</h2>
 			<div class="hr"></div>
 			
 			<p>Media Decoded is Weber Shandwick’s digital thought leadership platform that sits at the intersection of content, technology and marketing. Our goal is to inspire and educate our clients, our staff and the industry on the latest creative tools and tactics to engage consumers across all platforms.</p>
-			<a href="" class="btn-link">READ MORE</a>
+			<a href="http://mediadecoded.com" class="btn-link">READ MORE</a>
 		</div>
 		<div class="ws-sec-content">	
 			<img class="ws-sec-img" src="images/Mediacop.jpg" alt="">
@@ -338,24 +338,25 @@
 
 <!-- 6 who -->
 
-	<div class="ws-section wo-we-are">
+	<div id="culture" class="ws-section ws-section-2 who-we-are">
+
 		<div class="tablet-right">
 			<h2>WHO WE ARE</h2>
 			<div class="hr"></div>
 			
 			<p>Beyond the expected. Beyond what’s possible. It’s the destination we’re always aiming for. In our work. In the way we engage people with our clients’ brands. In how we make life better for our people and the world.</p>
 
-			<p>We’re committed to providing opportunities for our people to connect deeply across our global network, such as our <a href="https://www.youtube.com/watch?v=FcithAnT_TA">15x15 Global Exchange program</a>.</p>
+			<p>We’re committed to providing opportunities for our people to connect deeply across our global network, such as our <a class="copy-link" href="https://www.youtube.com/watch?v=FcithAnT_TA">15x15 Global Exchange program</a>.</p>
 
 			<p>We also see significant opportunities to contribute to social progress by leveraging what we do best. We’re proud to be engaged with corporate, foundation and nonprofit clients on more than 150 assignments linked to each of the UN Global Goals.</p>
 			<a href=" http://www.webershandwick.com/who-we-are/corporate-citizenship" class="btn-link">LEARN MORE</a>
 		</div>
 		<div class="ws-sec-content">	
-			<a href="https://www.youtube.com/watch?v=ekvgQTPO3jA"><img class="ws-sec-img" src="images/Work_video.jpg" alt=""></a>
+			<div class="ws-sec-container"><a class="ws-sec-link" href="https://www.youtube.com/watch?v=ekvgQTPO3jA"><img class="ws-sec-img" src="images/Work_video.jpg" alt=""></a></div>
 			<div class="headshot">
 				<img class="headshot" src="images/Work_dotted.jpg" alt="">
 				<div class="title-container">
-				<p>15x15 Global Exchange Program</p>
+				<p>15x15 Global<br>Exchange Program</p>
 				</div>
 			</div>
 		</div>
@@ -369,16 +370,16 @@
 
 		<ul class="links">
 			<li>
-				<a href="">Leadership</a>
+				<a href="/who-we-are/leadership">Leadership</a>
 			</li>
 			<li>
-				<a href="">MediaCo</a>
+				<a href="http://mediaco.webershandwick.com/ ">MediaCo</a>
 			</li>
 			<li>
-				<a href="">Global Network</a>
+				<a href="/who-we-are/global-network">Global Network</a>
 			</li>
 			<li>
-				<a href="">Awards</a>
+				<a href="/who-we-are/awards">Awards</a>
 			</li>
 		</ul>
 
@@ -387,13 +388,13 @@
 				<a href="https://www.facebook.com/WeberShandwick"><img src="images/Social_FB.png" alt=""></a>
 			</li>
 			<li>
-				<a href="https://www.linkedin.com/company/weber-shandwick"><img src="images/Social_TW.png" alt=""></a>
+				<a href="https://twitter.com/webershandwick"><img src="images/Social_TW.png" alt=""></a>
 			</li>
 			<li>
-				<a href="https://twitter.com/webershandwick"><img src="images/Social_IN.png" alt=""></a>
+				<a href="https://www.linkedin.com/company/weber-shandwick"><img src="images/Social_IN.png" alt=""></a>
 			</li>
 			<li>
-				<a href=""><img src="images/Social_email.png" alt=""></a>
+				<a href="https://www.youtube.com/user/WeberShandwickGlobal"><img src="images/Social_YT.png" alt=""></a>
 			</li>
 		</ul>
 

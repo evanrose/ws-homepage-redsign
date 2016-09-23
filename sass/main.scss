@@ -6,7 +6,9 @@
 @import "header-main-center";
 @import "hero";
 @import "case-study";
+@import "case-study-2";
 @import "ws-section";
+@import "ws-section-2";
 @import "sections";
 @import "footer";
 
@@ -14,17 +16,6 @@ html, body {
 
 	color: #333;
 	min-height: 100%;
-}
-
-header, main {
-
-	@media (min-width: 1280px) {
-
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		width: 1280px;
-	}	
 }
 
 main {	
@@ -54,6 +45,16 @@ h1 h2, h3 {
 h2, h3, h4 {
 	
 	margin: 0 0 $mrgn-btm-dflt 0;
+}
+
+.copy-link {
+
+	text-decoration: underline;
+}
+
+.center {
+
+	text-align: center;
 }
 
 .left {
