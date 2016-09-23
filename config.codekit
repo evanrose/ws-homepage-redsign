@@ -267,6 +267,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/ws-homepage\/images\/ADAge_best_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13729,
+		"inputAbbreviatedPath": "\/ws-homepage\/images\/ADAge_best_v2.jpg",
+		"outputAbbreviatedPath": "\/ws-homepage\/images\/ADAge_best_v2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/ws-homepage\/images\/barbieHistory.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -340,6 +351,28 @@
 		"initialSize": 5514,
 		"inputAbbreviatedPath": "\/ws-homepage\/images\/cannes_logo.png",
 		"outputAbbreviatedPath": "\/ws-homepage\/images\/cannes_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/ws-homepage\/images\/cannes_logo_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17398,
+		"inputAbbreviatedPath": "\/ws-homepage\/images\/cannes_logo_v2.jpg",
+		"outputAbbreviatedPath": "\/ws-homepage\/images\/cannes_logo_v2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/ws-homepage\/images\/cannes_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98304,
+		"inputAbbreviatedPath": "\/ws-homepage\/images\/cannes_v2.jpg",
+		"outputAbbreviatedPath": "\/ws-homepage\/images\/cannes_v2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -439,6 +472,17 @@
 		"initialSize": 12685,
 		"inputAbbreviatedPath": "\/ws-homepage\/images\/Dotted_workatWeber_v2.jpg",
 		"outputAbbreviatedPath": "\/ws-homepage\/images\/Dotted_workatWeber_v2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/ws-homepage\/images\/Hement_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51991,
+		"inputAbbreviatedPath": "\/ws-homepage\/images\/Hement_v2.jpg",
+		"outputAbbreviatedPath": "\/ws-homepage\/images\/Hement_v2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
