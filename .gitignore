@@ -1,0 +1,9 @@
+_notes/
+*.DS_Store
+*.sql
+*.log
+.sass-cache
+config.codekit
+.htaccess
+.htpasswd
+sftp-config.json
