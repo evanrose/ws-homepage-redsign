@@ -4,3 +4,6 @@ _notes/
 *.log
 .sass-cache
 config.codekit
+.htaccess
+.htpasswd
+sftp-config.json
