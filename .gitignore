@@ -3,7 +3,6 @@ _notes/
 *.sql
 *.log
 .sass-cache
-config.codekit
 .htaccess
 .htpasswd
 sftp-config.json
