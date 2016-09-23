@@ -326,6 +326,9 @@
 		position:relative;
 		float:left;
 		
+		.headshot {
+			margin-bottom:25px;
+		}
 		.headshot .title-container p {
 			font-size:12px;
 		}
@@ -349,6 +352,11 @@
 	.ws-sec-content {
 		padding:0 !important;
 		float:none;
+		.title-container p {
+			margin-top:10px;
+			text-align:right;
+			width:100%;
+		}
 	}
 	
 	@media (min-width: 1280px) {
