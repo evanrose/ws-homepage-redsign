@@ -185,6 +185,7 @@ header {
 			&:last-child a {
 				
 				border: none;
+				padding-right:0;
 			}
 		}
 		
@@ -192,7 +193,7 @@ header {
 			
 			clear: none;
 			float: right;
-			margin: 50px 40px;
+			margin: 50px;
 			max-height: none;
 		}
 		
