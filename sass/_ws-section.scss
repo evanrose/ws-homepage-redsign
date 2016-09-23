@@ -74,6 +74,16 @@
 		}
 	}
 	
+	.tablet-left > p {
+		
+		padding: 0 25px 0 0;
+		
+		@media (min-width: 640px) {
+			
+			padding:0 50px;
+		}
+	}
+	
 	.ws-sec-content {
 
 		clear: both;
@@ -125,6 +135,37 @@
 					font-weight: bold;
 				}
 			}
+			
+			p.smaller {
+				font-size:12px;
+			}
+		}
+	}
+	
+	.ws-sec-content.right {
+
+		padding-left: 0;
+		padding-right:20px;
+
+		@media (min-width: 640px) {
+
+			padding-left: 0;
+			padding-right: 50px;
+		}
+
+		.headshot {
+		
+			text-align: left;
+		}
+
+		.title-container {
+			
+			text-align: left;
+
+			p {
+
+				float: left;
+			}
 		}
 	}
 
@@ -164,6 +205,22 @@
 			}
 
 		}
+		
+		.ws-sec-content.right {
+			
+			float: right;
+			
+			.headshot {
+				
+				float: left;
+				
+				.title-container p {
+					
+					margin-right:0;
+					margin-left:20px;
+				}
+			}
+		}
 
 		.tablet-right {
 
@@ -175,6 +232,18 @@
 				padding: 0;
 			}
 
+		}
+		
+		.tablet-left {
+			
+			float: left;
+			width: 40%;
+			
+			> p {
+				
+				padding: 0;
+			}
+		
 		}
 	}
 
@@ -217,6 +286,11 @@
 				margin-top: 20px;
 			}
 		}
+		
+		.ws-sec-content.right {
+			margin-left: 0;
+			margin-right:100px;
+		}
 
 		.tablet-right {
 			
@@ -230,5 +304,98 @@
 				width: 300px;
 			}
 		}
+		
+		.tablet-left {
+			
+			position: absolute;
+			width: 380px;
+			left: 150px;
+			
+			> p {
+				
+				float: left;
+				width: 300px;
+			}
+		}
 	}
+}
+
+.who-we-are {
+	
+	.tablet-left {
+		position:relative;
+		float:left;
+		
+		.headshot .title-container p {
+			font-size:12px;
+		}
+	}
+	
+	@media (min-width: 1280px) {
+	
+		.tablet-left p {
+			width:100%;
+		}
+	
+		.btn-link {
+			margin-left:0 !important;
+		}
+		.ws-sec-content.right {
+			float:right;
+			margin-right:0;
+		}
+	}
+	
+	.ws-sec-content {
+		padding:0 !important;
+		float:none;
+	}
+	
+	@media (min-width: 1280px) {
+		.ws-sec-content {
+			width:600px !important;
+			padding:0 !important;
+			margin-top:100px !important;
+		}
+	}
+}
+
+#careers .ws-sec-content {
+	position:relative;
+}
+.ws-section .ws-sec-content img.ws-sec-img {
+	margin-bottom:0;
+}
+.work-ad-age {
+	width:25%;
+	position:relative;
+	margin-bottom:35px;
+	@media (min-width: 1024px) {
+		margin-bottom:70px;
+		position:absolute;
+		transform:translateY(-50%);
+	}
+}
+
+.full-width-background {
+	position:relative;
+	overflow:visible;
+}
+.full-width-background .background-color {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	width:100%;
+	height:100%;
+}
+.work-at-weber.full-width-background .background-color {
+	background-color:#35a9ce;
+}
+.media-decoded.full-width-background .background-color {
+	background-color:#794ba9;
+}
+.who-we-are.full-width-background .background-color {
+	background-color:#ed742d;
 }

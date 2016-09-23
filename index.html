@@ -5,8 +5,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Weber Shandwick is one of the world's leading global public relations firms with offices in major media, business and government capitals around the world.">
+<link rel="stylesheet" type="text/css" href="ws-homepage/styles/jquery.fancybox.css">
 <link rel="stylesheet" type="text/css" href="ws-homepage/styles/main.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
 <header>
@@ -14,10 +14,10 @@
 	<input class="menu-btn" type="checkbox" id="menu-btn">
 	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 	<ul class="menu">
-		<li><span><a href="#work">Work</a></span></li>
-		<li><span><a href="#careers">Careers</a></span></li>
-		<li><span><a href="#culture">Culture</a></span></li>
-		<li><span><a href="/news">Newsroom</a></span></li>
+		<li><span><a href="#work" class="jump-link">Work</a></span></li>
+		<li><span><a href="#careers" class="jump-link">Careers</a></span></li>
+		<li><span><a href="#culture" class="jump-link">Culture</a></span></li>
+		<li><span><a href="http://www.webershandwick.com/news">Newsroom</a></span></li>
 	</ul>
 </header>
 
@@ -27,23 +27,23 @@
 		<div class="background">
 			<h1>We are engaging always.</h1>
 		</div>
-		<p> Creativity works in mysterious and often paradoxical ways. Creative thinking is a stable, defining characteristic in some personalities.</p>
+		<p>If a comma falls from a tagline, does it make a sound? Engaging, always. Engaging always. Did you hear that? Neither did we. While it might not make a sound, it certainly makes a difference. Because in a world that lives in the instant, a comma is an unnecessary pause. So we kissed ours goodbye. We changed a few other things, too, like this new beta site. But this tiny edit reflects the spirit of our agency – where people and ideas engage without pause. Always. And we hear that loud and clear.</p>
 	</div>
 
 <!-- 1 hemnet -->
 
-	<div class="case-study hemnet">
+	<div id="work" class="case-study hemnet">
 		
 		<span class="case-study-header">Case Study</span>
 		<h3 class="">HEMNET: THE HOUSE OF CLICKS</h3>
 		<div class="position-right">
-			<a href="https://youtu.be/iOOFqFIwGKI"><img class="cs-image" src="ws-homepage/images/Hemnet.jpg" alt=""></a>
+			<a href="http://www.youtube.com/embed/iOOFqFIwGKI?autoplay=1" class="load-overlay-video fancybox.iframe"><img class="cs-image" src="ws-homepage/images/Hemnet.jpg" alt=""></a>
 			<div class="cs-text">
-				<p>We set out to show that Hemnet is not only a pioneer of property portals &mdash; but also the future of property development. And we did so by turning ones and zeros into bricks and mortar. Our team of data scientists analyzed more than 200 million clicks, unearthing the foundation of what Swedes dream about in a future home.</p>
-				<p>Based on the data, Hemnet built an actual House of Clicks &mdash; a gorgeous 1.5 story home featuring a red wooden facade and a private rooftop terrace.</p>
+				<p>We set out to show that Hemnet is not only a pioneer of property portals – but also the future of property development. And we did so by turning ones and zeros into bricks and mortar. Our team of data scientists analyzed more than 200 million clicks, unearthing the foundation of what Swedes dream about in a future home.</p>
+				<p>Based on the data, Hemnet built an actual House of Clicks – a gorgeous 1.5 story home featuring a red wooden facade and a private rooftop terrace.</p>
 				<p>Co-created with more than 2 million Swedes, this campaign turned big data into a truly big idea.</p>
 				<p>We also created a whole new market, based on data only we possess.</p>
-				<p>So far, more than 648 people have signed up to buy the house. Perhaps Contagious, in its annual Cannes contenders article, put it best. “We’ve all seen examples of data viz in the past, but visualizing data as an actual house &mdash; well, that sounds pretty creative to me.”</p>
+				<p>So far, more than 648 people have signed up to buy the house. Perhaps Contagious, in its annual Cannes contenders article, put it best. "We've all seen examples of data viz in the past, but visualizing data as an actual house – well, that sounds pretty creative to me."</p>
 			</div>
 		</div>
 
@@ -98,34 +98,40 @@
 		<div class="person-container">
 			<!-- <div class="person-image-container"> -->
 				<img class="one" src="ws-homepage/images/cannes.jpg" alt="">
-				<p class="title">Cyber, Media and PR Lions Winner 2016</p>
+				<p class="title smaller">Cyber, Media and PR Lions Winner 2016</p>
 			
 				<img class="two" src="ws-homepage/images/Hemnet_Dottedimage.jpg" alt="">
+				<!--
 				<div class="cannes tablet">
 					<img class="" src="ws-homepage/images/Cannes_DOI.png" alt="">
 				</div>
+				-->
+				<img class="three" src="ws-homepage/images/Cannes_logo.jpg" alt="">
 		</div>
 	</div>
 
 <!-- 2 work weber -->
 
-	<div id="careers" class="ws-section work-at-weber">
+	<div id="careers" class="ws-section work-at-weber full-width-background">
 		<div class="tablet-right">
 			<h2>WORK AT WEBER SHANDWICK</h2>
 			<div class="hr"></div>
 			
-			<p>Our journey to date might surprise you. From a powerful PR base, we’ve built-in one of the world’s largest, global social agencies.  Then added Mediaco, a pioneering, award-winning content consulting and publishing operation. Today, we continue to win lead strategic partner and creative assignments for some of the world's most enduring companies and social causes. Interested?</p>
+			<p>Our journey to date might surprise you. From a powerful PR base, we've built-in one of the world's largest, global social agencies.  Then added Mediaco, a pioneering, award-winning content consulting and publishing operation. Today, we continue to win lead strategic partner and creative assignments for some of the world's most enduring companies and social causes. Interested?</p>
 			<a href="https://ipg.taleo.net/careersection/ws_ext_cs/jobsearch.ftl?lang=en&amp;portal=20100020139" class="btn-link">VIEW CURRENT OPENINGS</a>
 		</div>
 		<div class="ws-sec-content">	
 			<img class="ws-sec-img" src="ws-homepage/images/WorkAtWeber.jpg" alt="">
+			<img class="work-ad-age" src="ws-homepage/images/ADAge_best.jpg" alt="">
 			<div class="headshot">
 				<img class="headshot" src="ws-homepage/images/Dotted_workatWeber.jpg" alt="">
 				<div class="title-container">
-				<p>Named to Advertising Age’s Best Places to Work List 2015 and 2014</p>
+				<p class="smaller">Named to Advertising Age's Best Places to Work List 2015 and 2014</p>
 				</div>
 			</div>
 		</div>
+		<div class="clear"></div>
+		<div class="background-color"></div>
 	</div>	
 
 <!-- 3 india -->
@@ -137,7 +143,7 @@
 			<span class="case-study-header">Case Study</span>
 			<h3 class="">DAUGHTERS OF MOTHER INDIA</h3>
 
-			<a href="https://youtu.be/iOOFqFIwGKI."><img class="cs-image" src="ws-homepage/images/DOI_VideoStill.jpg" alt=""></a>
+			<a href="http://www.youtube.com/embed/uV90Fastjpg?autoplay=1" class="load-overlay-video cs-image fancybox.iframe"><img class="" src="ws-homepage/images/DOI_VideoStill.jpg" alt=""></a>
 
 			<div class="daughter desktop-right">
 
@@ -145,7 +151,7 @@
 
 
 			<div class="cs-text">
-					<p>Filmmaker Vibha Bakshi asked Weber Shandwick to help launch her documentary, the story of a brutal Delhi gang rape and its aftermath. But instead of simply introducing this film to consumers, we first engaged the most important stakeholder &mdash; and an unexpected one &mdash; the police. The nation’s police force is comprised of individuals from within this society where women are often not respected, so we sought to gender sensitize its officers. We also leveraged compelling movie theater PSAs, a first-of-its-kind television simulcast in 8 languages and media outreach to engage millions of citizens.</p>
+					<p>Filmmaker Vibha Bakshi asked Weber Shandwick to help launch her documentary, the story of a brutal Delhi gang rape and its aftermath. But instead of simply introducing this film to consumers, we first engaged the most important stakeholder — and an unexpected one — the police. The nation's police force is comprised of individuals from within this society where women are often not respected, so we sought to gender sensitize its officers. We also leveraged compelling movie theater PSAs, a first-of-its-kind television simulcast in 8 languages and media outreach to engage millions of citizens.</p>
 
 					<p>The campaign is making a real difference already. To date, 150,000 police officers have been trained. The film is now a mandatory part the National Police Academy curriculum. Rare – and critically important – partnerships between local elders and police have been formed. And most importantly, early estimates already show a 20% increase in reported sex crimes.</p>
 				</div>
@@ -160,15 +166,15 @@
 							OFFICERS TRAINED
 					</div>
 					<div class="three">
-						<span class="grid-number">10</span>
-							MILLION VIEWERS OF FIRST-EVER PRIME TIME DOCUMENTARY SIMULCAST IN 8 LANGUAGES
+						<span class="grid-number">10M</span>
+							VIEWERS OF FIRST-EVER PRIME TIME DOCUMENTARY SIMULCAST IN 8 LANGUAGES
 					</div>
 				</div>
 
 				<table class="info-grid-mobile mobile">
 					<tr>
 						<td>
-							<span class="grid-number">31M</span>
+							<span class="grid-number">31 MILLION</span>
 							Twitter Impressions
 						</td>
 						<td>
@@ -178,8 +184,8 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<span class="grid-number">10</span>
-							MILLION VIEWERS OF FIRST-EVER PRIME TIME DOCUMENTARY SIMULCAST IN 8 LANGUAGES
+							<span class="grid-number">10 MILLION</span>
+							VIEWERS OF FIRST-EVER PRIME TIME DOCUMENTARY SIMULCAST IN 8 LANGUAGES
 						</td>
 					</tr>
 				</table>
@@ -200,7 +206,7 @@
 
 			
 				<img class="one" src="ws-homepage/images/DOI_biopic.jpg" alt="">
-				<p class="title">Valerie Pinto, CEO of Weber Shandwick, India</p>
+				<p class="title smaller">Valerie Pinto, CEO of Weber Shandwick, India</p>
 			
 				<img class="two" src="ws-homepage/images/DOI_dotted.jpg" alt="">
 				<div class="cannes tablet">
@@ -223,7 +229,7 @@
 
 				<div class="person-image-container">
 					<img class="one" src="ws-homepage/images/DOI_biopic.jpg" alt="">
-					<p class="title">Valerie Pinto, CEO of Weber Shandwick, India</p>
+					<p class="title smaller">Valerie Pinto, CEO of Weber Shandwick, India</p>
 				</div>
 
 				<div class="cannes">
@@ -236,23 +242,25 @@
 
 <!-- 4 media -->
 
-	<div id="work" class="ws-section media-decoded">
+	<div class="ws-section media-decoded full-width-background">
 		<div class="tablet-right">
 			<h2>MEDIA DECODED</h2>
 			<div class="hr"></div>
 			
-			<p>Media Decoded is Weber Shandwick’s digital thought leadership platform that sits at the intersection of content, technology and marketing. Our goal is to inspire and educate our clients, our staff and the industry on the latest creative tools and tactics to engage consumers across all platforms.</p>
+			<p>Media Decoded is Weber Shandwick's digital thought leadership platform that sits at the intersection of content, technology and marketing. Our goal is to inspire and educate our clients, our staff and the industry on the latest creative tools and tactics to engage consumers across all platforms.</p>
 			<a href="http://mediadecoded.com" class="btn-link">READ MORE</a>
 		</div>
 		<div class="ws-sec-content">	
 			<img class="ws-sec-img" src="ws-homepage/images/Mediacop.jpg" alt="">
 			<div class="headshot">
-				<img class="headshot" src="ws-homepage/images/ChrisPerry.jpg" alt="">
+				<img class="headshot" src="ws-homepage/images/ChrisPerry_no_dots.jpg" alt="">
 				<div class="title-container">
-				<p>Chris Perry, Weber Shandwick Chief Digital Officer</p>
+				<p class="smaller">Chris Perry, Weber Shandwick Chief Digital Officer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 				</div>
 			</div>
 		</div>
+		<div class="clear"></div>
+		<div class="background-color"></div>
 	</div>		
 
 <!-- 5 barbie -->
@@ -260,7 +268,7 @@
 	<div class="case-study barbie">
 		
 		<span class="case-study-header">Case Study</span>
-		<h3 class="">MATTEL BARBIE: EVOLVE THE DOLL</h3>
+		<h3 class="">MATTEL BARBIE:<br />EVOLVE THE DOLL</h3>
 		<div class="position-right">
 			<img class="cs-image" src="ws-homepage/images/BarbieMain.jpg" alt="">
 			<div class="cs-text">
@@ -270,7 +278,7 @@
 
 				<p>Barbie is a brand people love to hate. Launching new body types is one thing, to have the world recognize Barbie as a beacon for change is another.</p>
 
-				<p>But by building on Barbie’s history of inspiring girls to pursue careers in anything from space travel to politics, and involving experts, opinion leaders and key media, Barbie went from an unlikely brand voice for girls’ empowerment to the natural opinion leader and game changer. We took the global conversation from a place of controversy back to where it belongs. Focused on how the world’s most famous doll empowers young girls through play.</p>
+				<p>But by building on Barbie's history of inspiring girls to pursue careers in anything from space travel to politics, and involving experts, opinion leaders and key media, Barbie went from an unlikely brand voice for girls' empowerment to the natural opinion leader and game changer. We took the global conversation from a place of controversy back to where it belongs. Focused on how the world's most famous doll empowers young girls through play.</p>
 			</div>
 			<div class="quote">
 				<img class="" src="ws-homepage/images/BarbieQuote.jpg" alt="">
@@ -328,38 +336,43 @@
 			<p>Senior Vice President is responsible for managing senior level client relationships and has regular exposure to client senior management.</p>
 			<a class="link" href="https://ipg.taleo.net/careersection/ws_ext_cs/jobdetail.ftl?job=001399">Apply Now</a>
 		</div>
+		<!--
 		<div class="person-container">
 			<div class="person right">
 				<img class="one" src="ws-homepage/images/barbieHistory.jpg" alt="">
-				<p class="title">Ruth and Elliot Handler, founders of Mattel Creations, in 1945</p>
+				<p class="title smaller">Ruth and Elliot Handler, founders of Mattel Creations, in 1945</p>
 			</div>
 		</div>
+		-->
 	</div>
 
 <!-- 6 who -->
 
-	<div id="culture" class="ws-section ws-section-2 who-we-are">
-
-		<div class="tablet-right">
+	<div id="culture" class="ws-section ws-section-2 who-we-are full-width-background">
+		<div class="tablet-left">
+			<div class="headshot">
+				<a href="http://www.youtube.com/embed/FcithAnT_TA?autoplay=1" class="load-overlay-video fancybox.iframe">
+					<img class="headshot" src="ws-homepage/images/Work_no_dots_color.jpg" alt="">
+				</a>
+				<div class="title-container">
+					<p class="smaller">15x15 Global Exchange Program</p>
+				</div>
+			</div>
 			<h2>WHO WE ARE</h2>
 			<div class="hr"></div>
 			
-			<p>Beyond the expected. Beyond what’s possible. It’s the destination we’re always aiming for. In our work. In the way we engage people with our clients’ brands. In how we make life better for our people and the world.</p>
+			<p>Beyond the expected. Beyond what's possible. It's the destination we're always aiming for. In our work. In the way we engage people with our clients' brands. In how we make life better for our people and the world.</p>
 
 			<p>We’re committed to providing opportunities for our people to connect deeply across our global network, such as our <a class="copy-link" href="https://www.youtube.com/watch?v=FcithAnT_TA">15x15 Global Exchange program</a>.</p>
 
-			<p>We also see significant opportunities to contribute to social progress by leveraging what we do best. We’re proud to be engaged with corporate, foundation and nonprofit clients on more than 150 assignments linked to each of the UN Global Goals.</p>
-			<a href=" http://www.webershandwick.com/who-we-are/corporate-citizenship" class="btn-link">LEARN MORE</a>
+			<p>We also see significant opportunities to contribute to social progress by leveraging what we do best. We're proud to be engaged with corporate, foundation and nonprofit clients on more than 150 assignments linked to each of the UN Global Goals.</p>
+			<a href="https://impact.webershandwick.com/" class="btn-link">LEARN MORE</a>
 		</div>
-		<div class="ws-sec-content">	
-			<div class="ws-sec-container"><a class="ws-sec-link" href="https://www.youtube.com/watch?v=ekvgQTPO3jA"><img class="ws-sec-img" src="ws-homepage/images/Work_video.jpg" alt=""></a></div>
-			<div class="headshot">
-				<img class="headshot" src="ws-homepage/images/Work_dotted.jpg" alt="">
-				<div class="title-container">
-				<p>15x15 Global<br>Exchange Program</p>
-				</div>
-			</div>
+		<div class="ws-sec-content right">	
+			<div class="ws-sec-container"><a class="ws-sec-link load-overlay-video fancybox.iframe" href="http://www.youtube.com/embed/ekvgQTPO3jA?autoplay=1"><img class="ws-sec-img" src="ws-homepage/images/Work_video.jpg" alt=""></a></div>
 		</div>
+		<div class="clear"></div>
+		<div class="background-color"></div>
 	</div>		
 	
 </main>
@@ -370,16 +383,16 @@
 
 		<ul class="links">
 			<li>
-				<a href="/who-we-are/leadership">Leadership</a>
+				<a href="http://www.webershandwick.com/who-we-are/leadership">Leadership</a>
 			</li>
 			<li>
-				<a href="http://mediaco.webershandwick.com/ ">MediaCo</a>
+				<a href="http://mediaco.webershandwick.com/">MediaCo</a>
 			</li>
 			<li>
-				<a href="/who-we-are/global-network">Global Network</a>
+				<a href="http://www.webershandwick.com/who-we-are/global-network">Global Network</a>
 			</li>
 			<li>
-				<a href="/who-we-are/awards">Awards</a>
+				<a href="http://www.webershandwick.com/who-we-are/awards">Awards</a>
 			</li>
 		</ul>
 
@@ -508,6 +521,8 @@
 	</div>
 </footer>
 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="ws-homepage/js/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="ws-homepage/js/scripts.js"></script>
 
 </body>
