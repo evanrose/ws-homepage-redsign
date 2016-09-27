@@ -412,9 +412,9 @@ main {
         width: 40%;
         z-index: 1; }
       .case-study .person-container .cannes {
-        background-color: #666;
+        /*background-color: #666;*/
         bottom: 0;
-        padding: 10px;
+        /*padding: 10px;*/
         position: absolute;
         right: 0;
         z-index: 3; } }
@@ -862,25 +862,27 @@ main {
     width: 380px; }
     .daughters .content-container .info-grid-mobile {
       margin-left: 0; }
-  .daughters .img-container .cs-image {
-    margin-left: 75px;
-    width: 725px;
-    margin-bottom: 25px;
-    z-index: 0; }
-  .daughters .img-container .apply-container {
-    position: absolute;
-    left: 0;
-    margin: 0;
-    top: 100px;
-    width: 240px;
-    z-index: 3; }
-  .daughters .img-container .person-image-container {
-    margin: 0;
-    padding-left: 200px;
-    text-align: left;
-    width: 500px; }
-  .daughters .img-container .cannes img {
-    width: auto; }
+  .daughters .img-container {
+    width: 700px; }
+    .daughters .img-container .cs-image {
+      margin-left: 75px;
+      width: 725px;
+      margin-bottom: 25px;
+      z-index: 0; }
+    .daughters .img-container .apply-container {
+      position: absolute;
+      left: 0;
+      margin: 0;
+      top: 100px;
+      width: 310px;
+      z-index: 3; }
+    .daughters .img-container .person-image-container {
+      margin: 0;
+      padding-left: 200px;
+      text-align: left;
+      width: 500px; }
+    .daughters .img-container .cannes img {
+      width: auto; }
   .daughters .person-container.tablet {
     display: block;
     width: 725px; }
@@ -1022,8 +1024,7 @@ footer {
 
 html, body {
   color: #333;
-  min-height: 100%;
-  width: 100%; }
+  min-height: 100%; }
 
 main > div {
   padding: 0 20px 40px 20px;
